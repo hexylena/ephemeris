@@ -39,6 +39,8 @@ ENTRY_POINTS = '''
         install_tool_deps=ephemeris.install_tool_deps:main
         install-tool-deps=ephemeris.install_tool_deps:main
         set-library-permissions=ephemeris.set_library_permissions:main
+        _idc-split-data-manager-genomes=ephemeris._split_data_manager_genomes:main
+        _idc-data-managers-to-tools=ephemeris._data_managers_to_tools:main
 '''
 PACKAGE_DATA = {
     # Be sure to update MANIFEST.in for source dist.
