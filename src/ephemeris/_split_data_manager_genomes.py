@@ -81,7 +81,7 @@ def split_genomes(split_options: SplitOptions) -> None:
 
             item = deepcopy(genome)
             item.pop("indexers", None)
-            item.pop("blacklist", None)
+            item.pop("skiplist", None)
 
             data_manager["items"] = [item]
 
